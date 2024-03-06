@@ -5,6 +5,8 @@
  */
 package javaapplication13;
 
+import java.util.Scanner;
+
 /**
  *
  * @author vsp
@@ -15,7 +17,10 @@ public class JavaApplication13 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        System.out.println("DANIELA");
+        Scanner teclado = new Scanner (System.in);
+        String nombre = teclado.nextLine();
+        
     }
     
 }
